@@ -1,6 +1,6 @@
 package my.thread_.method;
 
-
+//测试注释
 public class ThreadMethod01 {
     public static void main(String[] args) throws Exception{
         Tx tx = new Tx();
