@@ -1,9 +1,11 @@
 package my.thread_.method;
 
+
 public class ThreadMethod01 {
     public static void main(String[] args) throws Exception{
         Tx tx = new Tx();
         tx.setName("zn");
+        //设置线程的优先级
         tx.setPriority(Thread.MIN_PRIORITY);
         tx.start();
         for (int i = 0; i < 5; i++) {
